@@ -1,0 +1,87 @@
+<!doctype html> 
+<html lang="en-US"> 
+	<head>
+		<title> *Registration* </title>
+		<meta charset = "utf-8">
+		<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../CSS/style.css">
+	</head> 
+	
+	<body>
+	<h3> Register here! </h3>
+	<form>
+	
+	<br>
+    <fieldset>
+	<!-- Sampled code from https://www.w3schools.com/TAGS/tag_legend.asp -->
+		<legend> <strong>Personal Information: </strong></legend>
+		<br>
+        <label> Enter your First Name: </label>
+        <input type="text" name="firstname">
+		<br>
+		
+		<label> Enter your Last Name: </label>
+        <input type="text" name="lastname">
+		<br>
+		
+        <label> Select your gender: </label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="others">Other
+		<br>
+		
+        <label> Enter your Date of Birth: </label>
+        <input type="date" name="dob">
+		<br>
+		
+        <label>What campus do you attend? </label>
+        <input type="text" name="campus" >
+		</fieldset>
+		<br>
+		
+		<fieldset>
+		<legend><strong> Account Information: </strong></legend>
+		<br>
+		<!-- Sampled code from https://www.w3schools.com/howto/howto_css_register_form.asp -->
+		<label> Choose your Username: </label>
+        <input type="text" name="name">
+		<br>
+		
+        <label> Enter your email: </label>
+        <input type="email" name="email">
+		<br>
+		
+        <label> Enter your password: </label>
+        <input type="password" name="pass">
+		<br>
+		
+        <label> Confirm your password: </label>
+        <input type="password" name="confirmPass">
+		<br>
+		
+		<!-- Used to create the alert https://stackoverflow.com/questions/18330917/how-to-alert-inline-of-button -->
+        <input type="submit" value="Submit" onclick="alert('Success! Your information has been recorded.')">
+		</fieldset>
+		<br>
+		
+		
+    </form>
+	<br>
+	
+	<section>
+	<h3> Navigation: </h3>
+	<!-- Read and sampled code from https://stackoverflow.com/questions/908765/how-to-link-html-pages-in-same-or-different-folders -->
+	<nav>
+	<ul>
+	<li> <a href="../index.html" target="_self" > Home </a></li>
+	<li> <a href="../HTML/Registration.html" target="_self"> Registration </a></li>
+	<li> <a href="../HTML/Gallery.html" target="_self"> Services Offered </a></li>
+	<li> <a href="../HTML/Tutoring.html" target="_self"> Tutoring </a></li>
+	<li> <a href="../HTML/Clubs.html" target="_self"> Clubs </a></li>
+	</ul>
+	</nav>
+	</section>
+	
+	</body>
+	
+</html>
